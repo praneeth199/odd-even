@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+
+int odd(int a)
+{
+	if(a%2==0)
+	{
+	printf("even");
+	}
+	else  
+	printf("odd");
+}
+int main()
+{
+	int a;
+	
+	printf("enter the digits:");
+	scanf("%d",&a);
+	odd(a);
+	return 0;
+}
